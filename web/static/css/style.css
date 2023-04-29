@@ -1,0 +1,55 @@
+#reset-this-root {
+  all: unset;
+}
+
+body {
+  display: flex;
+  justify-content: space-between;
+}
+
+#right-panel {
+  margin-top: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+#right-panel > * {
+  margin-bottom: 12px;
+  width: 175px;
+}
+
+#left-panel {
+  margin-top: 10px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+#left-panel > * {
+  margin-bottom: 12px;
+}
+
+#middle-panel {
+  margin-top: 10px;
+}
+
+#board-container {
+  height: 900px;
+  width: 900px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+#statistics {
+  font: 25px Arial;
+  color: #c4a7e7;
+}
+
+.hidden {
+  display: none;
+}
+
+.theme {
+  width: 40px;
+}
